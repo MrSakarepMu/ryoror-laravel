@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="profile-container">
-            <img src="Ryo Matsumura.jpg" alt="Rajeendra Fawaz Majjid Anthuryo" class="profile-img">
+            <img src="asset\img\Ryo Matsumura.jpg" alt="Rajeendra Fawaz Majjid Anthuryo" class="profile-img">
             <div class="profile-text">
                 <h1>Rajeendra Fawaz Majjid Anthuryo</h1>
                 <p>SMK PPLG Student | Web Developer</p>
