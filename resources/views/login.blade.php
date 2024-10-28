@@ -83,7 +83,7 @@
     </style>
 </head>
 <body>
-    <form id="LoginForm">
+    <form id="LoginForm" onsubmit="return handleLogin(event)">
         <h2>Login</h2>
         <div>
             <label for="username">Username:</label>
@@ -91,14 +91,20 @@
         </div>
         <div>
             <label for="password">Password:</label>
-            <input type="text" name="password" id="password" required>
+            <input type="password" name="password" id="password" required>
         </div>
         <button type="submit">Login</button>
         <div>
             <span>Don't have an account?</span>
-            <a href="e:\portofolio mk3\Signup.html">Sign up</a>
+            <a href="e:/portofolio mk3/Signup.html">Sign up</a>
         </div>
     </form>
-    <script src="asset/js/script.js"></script>
+    
+    <script>
+        function handleLogin(event) {
+            event.preventDefault();
+            window.location.href = "/";
+        }
+    </script>
 </body>
 </html>

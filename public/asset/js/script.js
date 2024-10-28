@@ -1,5 +1,5 @@
 document.getElementById('LoginForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Mencegah pengiriman form secara default
+    event.preventDefault();
 
     const correctUsername = 'SakarepMu';
     const correctPassword = 'bambang21';

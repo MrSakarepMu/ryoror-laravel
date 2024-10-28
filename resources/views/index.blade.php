@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rajeendra Fawaz Majjid Anthuryo - Portfolio</title>
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="{{ asset('asset/css/style.css') }}">
 </head>
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('about') }}">About</a></li>
+                <li><a href="{{ route('login') }}">Login</a></li>
+            </ul>
+        </nav>
+        
         <div class="profile-container">
-            <img src="asset\img\Ryo Matsumura.jpg" alt="Rajeendra Fawaz Majjid Anthuryo" class="profile-img">
+            <img src="{{ asset('asset/img/Ryo Matsumura.jpg') }}" alt="Rajeendra Fawaz Majjid Anthuryo" class="profile-img">
             <div class="profile-text">
                 <h1>Rajeendra Fawaz Majjid Anthuryo</h1>
                 <p>SMK PPLG Student | Web Developer</p>
@@ -19,7 +27,9 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Halo! Saya Rajeendra, seorang pelajar SMK jurusan PPLG yang memiliki minat dalam pengembangan web. Hobi saya belakangan ini adalah mendaki gunung. Menikmati alam adalah kesenangan yang tak tergantikan—keindahannya tak tertandingi, kecuali oleh senyumnya. Hehe.
+        <p>Halo! Saya Rajeendra, seorang pelajar SMK jurusan PPLG yang memiliki minat dalam pengembangan web. 
+            Hobi saya belakangan ini adalah mendaki gunung. Menikmati alam adalah kesenangan yang tak tergantikan—keindahannya tak tertandingi, 
+            kecuali oleh senyumnya. Hehe.
         </p>
     </section>
 
